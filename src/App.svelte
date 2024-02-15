@@ -1,6 +1,9 @@
 <script>
     import Component from "./component.svelte";
     import Events from "./events.svelte";
+    import Reactivity from "./reactivity.svelte";
+    import IfDirective from "./if-directive.svelte";
+    import ForDirective from "./for-directive.svelte";
     export let name
     let moment = 'tarde'
 
@@ -11,6 +14,9 @@
     <p>es de {moment}</p>
     <Component nombre = "daniel"/>
     <Events/>
+    <Reactivity/>
+    <IfDirective/>
+    <ForDirective/>
 </main>
 
 <style>
