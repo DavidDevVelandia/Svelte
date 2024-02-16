@@ -4,6 +4,10 @@
     import Reactivity from "./reactivity.svelte";
     import IfDirective from "./if-directive.svelte";
     import ForDirective from "./for-directive.svelte";
+    import AwaitDirective from "./await-directive.svelte";
+    import Binding from "./binding.svelte";
+    import Parent from "./custom-event/parent.svelte";
+    import Container from "./events-bubbling/container.svelte";
     export let name
     let moment = 'tarde'
 
@@ -17,6 +21,12 @@
     <Reactivity/>
     <IfDirective/>
     <ForDirective/>
+    <AwaitDirective/>
+    <Binding/>
+    <br>
+    <Parent/>
+    <br>
+    <Container/>
 </main>
 
 <style>
